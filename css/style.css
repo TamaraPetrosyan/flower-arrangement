@@ -1,0 +1,902 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+main {
+    background-color: rgba(239, 159, 139, 0.150);
+    background-image: url('../image/main-texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.toolbar {
+    background-color: #c87e6b;
+    padding: 15px 0;
+}
+.container {
+    width: 1300px;
+    margin: auto;
+}
+.container .menu-line {
+    float: left;
+}
+.container .menu-line:nth-child(2) {
+    padding: 9px 150px;
+}
+.toolbar .container ul li {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: 60px;
+    border-radius: 17px;
+    background-color: #c87e6b;
+    border: 2px solid transparent;
+    padding: 2px 10px;
+}
+.toolbar .container ul li:hover {
+    border-color: #e9e5da;
+}
+.toolbar .container ul li a {
+    text-decoration: none;
+    color: #e7e4db;
+}
+.toolbar .container .menu-line a img {
+    padding-top: 3px;
+}
+.user-shop-bars {
+    padding: 15px 0px ;
+    float: right;
+}
+.user-shop-bars i {
+    margin: 0 10px;
+    color: #e9e5da;
+    font-size: 20px;
+}
+.flower-arrangament {
+    text-align: center;
+}
+.flower-arrangament .flower-texts {
+    width: 50%;
+    padding: 253px 0 280px;
+    float: left;
+    background: url('../image/header-leafsone.png') -59px 672px no-repeat,
+                url('../image/header-leafstwo.png') 571px 191px no-repeat;
+}
+.flower-bgimgae {
+    width: 50%;
+    float: right;
+    background-image: url('../image/bg-image-sctone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 460px 0;
+}
+.flower-arrangament .flower-texts h1 {
+    width: 70%;
+    margin: auto;
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 53px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;   
+}
+.flower-arrangament .flower-texts h3 {
+    font-size: 25px;
+    line-height: 97px;
+    color: #765a33;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+.flower-arrangament .flower-texts p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #9b6e30;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    text-align: center;    
+}
+.flower-arrangament .flower-texts button {
+    border-radius: 30px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #484a4b;;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    background-color: transparent;
+    padding: 9px 20px;
+    margin-top: 60px;  
+    cursor: pointer;
+}
+.flower-arrangament .flower-texts button:hover {
+    background-color: #787878;
+    color: #fff;
+}
+.solds {
+    padding: 60px 0;
+    background-color: rgba(116, 79, 36, 0.920);
+}
+.solds-line .solds-line-texts {
+    float: left;
+    margin: 0 85px;
+}
+.solds-line .solds-line-texts p:first-child {
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.solds-line .solds-line-texts p:last-child {
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+    text-align: center;    
+}
+.products {
+    background-image: url('../image/section-products-design.png');
+    background-repeat: no-repeat;
+    background-position: center 60px;
+    padding: 120px 0;
+}
+.products .container h2 {
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 53px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.products .container p {
+    font-size: 25px;
+    line-height: 60px;
+    color: #765a33;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+    text-align: center;    
+}
+.our-products {
+    margin-top: 80px;
+}
+.our-products .our-product-blocks {
+    width: 22%;
+    padding: 330px 41px 15px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.our-products .our-product-blocks:nth-child(2) {
+    margin: 0 4%;
+}
+.our-products .img-one {
+    background-image: url('../image/product-image-one.png');
+    background-repeat: no-repeat;
+}
+.our-products .img-two {
+    background-image: url('../image/product-image-two.png');
+    background-repeat: no-repeat;
+}
+.our-products .img-tree {
+    background-image: url('../image/product-image-tree.png');
+    background-repeat: no-repeat;
+}
+.our-products .img-four {
+    background-image: url('../image/product-image-four.png');
+    background-repeat: no-repeat;
+}
+.our-products .our-product-blocks h3 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;    
+}
+.our-products .our-product-blocks p {
+    font-size: 13px;
+    line-height: 17px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: left;   
+    margin-top: 6px; 
+}
+.our-products .our-product-blocks button {
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #e6e3da;
+    border-radius: 12px;
+    background-color: #454545;
+    padding: 8px 20px;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: center;  
+    margin-top: 15px;  
+    cursor: pointer;
+}
+.left-and-right {
+    width: 150px;
+    margin: 60px auto 0;
+}
+.circle {
+    padding: 9px 18px;
+    border-radius: 50%;
+    background-color:  #bcbcbc;
+    font-size: 32px;
+    color: white;
+}
+.circle:hover {
+    background-color: #454545;
+}
+.c-left {
+    float: left;
+}
+.c-right {
+    float: right;
+}
+.how-we-do-it {
+    padding: 60px 0 150px;
+    background-image: url('../image/scttree-shapeleft.png');
+    background-repeat: no-repeat;
+    background-position: -98px  100px;
+}
+.how-we-do-it .container h2 {
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 53px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;    
+}
+.how-we-do-it .container p {
+    font-size: 25px;
+    line-height: 60px;
+    color: #765a33;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+    text-align: center;    
+}
+.how-we-do-it .container .pink-block {
+    width: 1140px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    background: url('../image/sectiontree-bgimage.png') center no-repeat,
+                url('../image/scttree-bgfoneone.png') left bottom no-repeat,
+                url(../image/scttree-bgfonetwo.png) right top no-repeat;
+                
+}
+.special-offer {
+    background-color: #dbc06e; 
+}
+.special-offer-texts {
+    width: 50%;
+    padding: 70px 0 40px;
+    text-align: center;
+    background: url('../image/sctfour-shape.png') center no-repeat;
+    float: left;
+}
+.special-offer-texts h4 {
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #e7e4db;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    display: inline-block;
+    text-align: center;
+    border-radius: 22px;
+    background-color: #424242;
+    padding: 9px 15px;
+}
+.special-offer-texts p {
+    font-size: 164px;
+    letter-spacing: 4px;
+    line-height: 148px;
+    color: #424242;
+    font-weight: 900;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    margin: 10px 0;    
+}
+.special-offer-texts p:last-child {
+    font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #424242;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+    text-align: center;    
+}
+.special-offer-image {
+    background-image: url('../image/sctfour-bgimage.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50%;
+    height: 392px;    
+    float: right;
+}
+.best-flowers, .love-what-we-do {
+    background: url('../image/best-flowers-shape.png') right bottom no-repeat;
+    padding: 40px 0 0;
+}
+.best-flowers .best-flowers-image  {
+    width: 60%;
+    float: left;
+    background: url('../image/sctsix-bgimage.png') center no-repeat,
+                url('../image/sctsix-shape.png') center no-repeat;
+    padding: 310px 0 350px;
+}
+.best-flowers .best-flowers-text, .love-what-we-do .love-what-we-do-text {
+    width: 40%;
+    float: right;
+    padding: 260px 0 350px;
+    background: url('../image/shape-best-flowers-text.png') left 150px no-repeat;
+}
+.best-flowers .best-flowers-text h2, .love-what-we-do .love-what-we-do-text h2 {
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 62px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";    
+    text-align: left;
+}
+.best-flowers .best-flowers-text p, .love-what-we-do .love-what-we-do-text p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #9b6e30;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    text-align: left;
+    margin-top: 12px;
+}
+.best-flowers .best-flowers-text button, .love-what-we-do .love-what-we-do-text button {
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #e6e3da;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    border-radius: 12px;
+    background-color: #454545;
+    padding: 7.5px 15px;   
+    margin-top: 20px;
+    cursor: pointer; 
+}
+.take-care-details {
+    background: url('../image/sctseven-shape.png') -45px 680px no-repeat;
+    padding: 10px 0 150px;   
+}
+.take-care-details .take-care-details-text {
+    width: 40%;
+    float: left;
+    padding: 260px 0 300px;
+    background: url('../image/shape-best-flowers-text.png') left 150px no-repeat;
+}
+.take-care-details .take-care-details-image {
+    width: 60%;
+    float: right;
+    background: url('../image/sctseven-bgimage.png') center no-repeat,
+                url('../image/sctseven-design.png') center no-repeat;
+    padding: 310px 0 350px;
+}
+.take-care-details-text h2 {
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 62px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";    
+}
+.take-care-details-text p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #9b6e30;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    text-align: left;   
+    margin-top: 10px; 
+}
+.take-care-details-text button {
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #e6e3da;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    border-radius: 12px;
+    background-color: #454545;
+    padding: 7.5px 15px;   
+    margin-top: 20px;
+    cursor: pointer;     
+}
+.love-what-we-do .love-what-we-do-image{
+    width: 60%;
+    float: left;
+    background: url('../image/scteight-bgimage.png') center no-repeat,
+                url('../image/sctsix-shape.png') center no-repeat;
+    padding: 310px 0 350px;
+}
+.our-new-sletter {
+    padding: 50px 0 25px;
+    text-align: center;
+}
+.our-new-sletter h2 {
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 62px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;    
+}
+.our-new-sletter p {
+    font-size: 25px;
+    line-height: 29px;
+    color: #484a4b;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    text-align: center;  
+    margin-top: 20px;  
+}
+.our-new-sletter form input {
+    display: block;
+    width: 940px;
+    height: 62px;
+    margin: auto;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.our-new-sletter form input:nth-child(3) {
+    padding: 40px 40px 110px;
+}
+.our-new-sletter form input::placeholder {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: left;    
+}
+.our-new-sletter form button {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: center;   
+    border-radius: 25px;
+    padding: 16px 20px;
+    background-color: #c87e6b;     
+    margin-top: 40px;
+    cursor: pointer;
+}
+footer {
+    background-color: #424242;
+    padding: 100px 0;
+}
+footer .container .last-menu {
+    width: 33%;
+    float: left;
+    padding: 0 50px;
+}
+footer .container .last-menu ul li {
+    list-style: none;
+}
+footer .container .last-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .container .last-menu ul li:first-child {
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";   
+    margin-bottom: 20px;
+}
+footer .container .last-menu ul li {
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";    
+}
+.social-icons {
+    width: 330px;
+    float: right;
+    margin-top: 25px;
+}
+.social-icons span {
+    font-size: 25px;
+    line-height: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates"; 
+    padding-right: 50px;
+}
+.social-icons i {
+    color: #e7e4da;
+    font-size: 32px;
+    padding-right: 15px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .toolbar {
+        background-color: #c87e6b;
+        padding: 15px 0;
+    }
+    .container {
+        width: 1000px;
+        margin: auto;
+    }
+    .container .menu-line {
+        float: left;
+    }
+    .container .menu-line:nth-child(2) {
+        padding: 9px 160px;
+    }
+    .toolbar .container ul li {
+        margin-left: 1px;
+        
+    }
+    .user-shop-bars {
+        padding: 15px 0px ;
+        float: left;
+    }
+    .flower-arrangament .flower-texts {
+        padding: 140px 0 91px;
+    }
+    .flower-bgimgae {
+        width: 50%;
+        float: right;
+        background-image: url('../image/bg-image-sctone.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 265px 0;
+    }
+    .flower-arrangament .flower-texts h1 {
+        font-size: 50px;
+    }
+    .flower-arrangament .flower-texts h3 {
+        font-size: 23px;
+    }
+    .flower-arrangament .flower-texts p {
+        font-size: 23px;
+    }
+    .solds-line .solds-line-texts {
+        float: left;
+        margin: 0 47px;
+
+    }
+    .our-products .our-product-blocks {
+        width: 46%;
+        padding: 310px 128px 15px;
+        float: left;
+        box-shadow: none;
+        
+    }
+    .our-products .our-product-blocks:nth-child(2) {
+        margin: 0;
+    }
+    .our-products .img-one, .our-products .img-two, .our-products .img-tree, .our-products .img-four {
+        background-position: center top;
+        background-color: transparent;
+    }
+    .our-products .img-tree, .our-products .img-four  {
+        margin-top: 25px;
+    }
+    .our-products .img-one, .our-products .img-tree {
+        float: left;
+    }
+    .our-products .img-two, .our-products .img-four {
+    float: right;
+    }
+    .how-we-do-it .container .pink-block {
+        width: 1000px;
+        height: 700px;
+        margin: auto;
+        margin-top: 50px;
+        background: url('../image/sectiontree-bgimage-media.png') center no-repeat,
+                    url('../image/scttree-bgfoneone.png') left bottom no-repeat,
+                    url(../image/scttree-bgfonetwo.png) right top no-repeat;              
+    }
+    .how-we-do-it {
+        padding: 60px 0 60px;
+    }   
+    .best-flowers .best-flowers-image  {
+        width: 56%;
+        float: left;
+        background: url('../image/sctsix-bgimage-media.png') center no-repeat,
+                    url('../image/sctsix-shape.png') center no-repeat;
+        padding: 310px 0 350px;
+        margin-right: 4%;
+    } 
+    .best-flowers .best-flowers-text h2, .love-what-we-do .love-what-we-do-text h2 {
+        font-size: 50px;
+    }
+    .best-flowers .best-flowers-text p, .love-what-we-do .love-what-we-do-text p {
+        font-size: 23px;
+    }
+    .best-flowers .best-flowers-text button, .love-what-we-do .love-what-we-do-text button {
+        font-size: 12px;
+        padding: 8.5px 17px;   
+    }
+    .take-care-details .take-care-details-image {
+        width: 56%;
+        margin-left: 4%;
+    }
+    .take-care-details .take-care-details-text {
+        padding: 260px 14px 300px;
+    }
+    .take-care-details-text h2 {
+        font-size: 50px;
+    }
+    .take-care-details-text p {
+        font-size: 23px;
+    }
+    .take-care-details-text button {
+        font-size: 12px;
+        padding: 9.5px 17px;    
+    }
+    .love-what-we-do .love-what-we-do-image{
+        width: 56%;
+        margin-right: 4%;
+    }
+    footer .container .last-menu ul li:first-child {
+        font-size: 30px;
+    }
+    footer .container .last-menu ul li {
+        font-size: 20px;
+    }
+    footer .container .last-menu {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .toolbar {
+        background-color: #c87e6b;
+        padding: 15px 0;
+    }
+    .container {
+        width: 700px;
+        margin: auto;
+    }
+    .container .menu-line {
+        float: left;
+    }
+    .container .menu-line:nth-child(2) {
+        padding: 9px 20px;
+    }
+    .toolbar .container ul li {
+        margin-left: 1px;    
+    }
+    .user-shop-bars {
+        padding: 15px 0px ;
+        float: left;
+    }
+    .flower-arrangament .flower-texts {
+        padding: 140px 0 85px;
+    }
+    .flower-arrangament .flower-bgimgae {
+        padding: 262px 0;
+    }
+    .flower-arrangament .flower-texts h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .flower-arrangament .flower-texts h3 {
+        font-size: 20px;
+        line-height: 55px;
+    }
+    .flower-arrangament .flower-texts p {
+        font-size: 20px;
+    }
+    .flower-arrangament .flower-texts button {
+        margin: 40px 0 0;
+    }
+    .solds-line .solds-line-texts {
+        float: left;
+        margin: 0 36px;
+    }
+    .solds-line .solds-line-texts p:first-child {
+        font-size: 30px;
+    }
+    .solds-line .solds-line-texts p:last-child {
+        font-size: 12px; 
+    }
+    .products {
+        padding: 60px 0;
+    }
+    .products .container h2 {
+        font-size: 46px;
+    }
+    .products .container p {
+        font-size: 22px;
+    }
+    .our-products {
+        margin-top: 35px;
+    }
+    .our-products .our-product-blocks {
+        width: 46%;
+        padding: 310px 16px 15px;
+        float: left;
+        box-shadow: none;
+    }
+    .our-products .our-product-blocks p {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .our-products .our-product-blocks button {
+        text-align: center;
+    }
+    .our-products .our-product-blocks:nth-child(2) {
+        margin: 0;
+    }
+    .our-products .img-one, .our-products .img-two, .our-products .img-tree, .our-products .img-four {
+        background-position: center top;
+        background-color: transparent;
+        text-align: center;
+    }
+    .our-products .img-tree, .our-products .img-four  {
+        margin-top: 25px;
+    }
+    .our-products .img-one, .our-products .img-tree {
+        float: left;
+    }
+    .our-products .img-two, .our-products .img-four {
+    float: right;
+    }
+    .how-we-do-it .container .pink-block {
+        width: 700px;
+        height: 700px;
+        margin: auto;
+        margin-top: 50px;
+        background: url('../image/sctsix-bgimage-mediaforseven.png') center no-repeat,
+                    url('../image/scttree-bgfoneone.png') left bottom no-repeat,
+                    url(../image/scttree-bgfonetwo.png) right top no-repeat;              
+    }
+    .how-we-do-it {
+        padding: 60px 0 60px;
+    }   
+    .special-offer {
+        background-color: #dbc06e; 
+    }
+    .special-offer-texts {
+        background-size: contain;
+    }
+    .special-offer-texts p {
+        font-size: 105px;
+        line-height: 120px;
+        margin: 7px 0;    
+    }
+    .special-offer-texts p:last-child {
+        font-size: 27px;  
+    }
+    .best-flowers {
+        background: none;
+        padding: 40px 0 20px;
+    }
+    .best-flowers .best-flowers-image  {
+        width: 56%;
+        float: left;
+        background: url('../image/sctsix-bgimage-mediaseven.png') center no-repeat;
+        padding: 50px 0 350px;
+        margin-right: 4%;
+    } 
+    .best-flowers .best-flowers-text {
+        padding: 50px 0 89px;
+        background: url(../image/shape-best-flowers-text.png) left 295px no-repeat;
+    }
+    .best-flowers .best-flowers-text h2, .love-what-we-do .love-what-we-do-text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .best-flowers .best-flowers-text p, .love-what-we-do .love-what-we-do-text p {
+        font-size: 16px;
+    }
+    .best-flowers .best-flowers-text button, .love-what-we-do .love-what-we-do-text button {
+        font-size: 12px;
+        padding: 8.5px 17px;   
+    }
+    .take-care-details {
+        background: none;
+        padding: 10px 0 50px;
+    }
+    .take-care-details .take-care-details-image {
+        width: 56%;
+        margin-left: 4%;
+        background: url(../image/sctseven-bgimage-mediaseven.png) center no-repeat, url(../image/sctseven-design.png) center no-repeat;
+        padding: 50px 0 350px;
+    }    
+    .take-care-details .take-care-details-text {
+        padding: 50px 14px 89px;
+        background: url(../image/shape-best-flowers-text.png) left 295px no-repeat;
+    }
+    .take-care-details-text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .take-care-details-text p {
+        font-size: 15px;
+    }
+    .take-care-details-text button {
+        font-size: 12px;
+        padding: 9.5px 17px;    
+    }
+    .love-what-we-do {
+        background: none;
+    }       
+    .love-what-we-do .love-what-we-do-image{
+        width: 56%;
+        margin-right: 4%;
+        background: url(../image/scteight-bgimage-mediaseven.png) center no-repeat;
+        padding: 50px 0 350px;           
+    }
+    .love-what-we-do .love-what-we-do-text {
+        padding: 50px 0 89px;
+        background: url(../image/shape-best-flowers-text.png) left 295px no-repeat;
+    }
+    .our-new-sletter {
+        padding: 50px 0 25px;
+        text-align: center;
+    }
+    .our-new-sletter h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .our-new-sletter p {
+        font-size: 22px;
+    }
+    .our-new-sletter form input {
+        width: 550px;
+    }
+    .our-new-sletter form button {
+        font-size: 15px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    footer .container .last-menu ul li:first-child {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    footer .container .last-menu ul li {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .social-icons span {
+        font-size: 17px;
+        padding-right: 30px;
+    }
+    footer .container .last-menu {
+        padding: 0 20px;
+    }
+}
